@@ -1,7 +1,7 @@
 ## terraform-vpc-may
 
 ```hcl
-tmodule "may" {
+module "may" {
   source  = "achelya81/may/vpc"
   version = "2.0.0"
   vpc_cidr = "172.31.1.0/16"
